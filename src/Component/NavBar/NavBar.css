@@ -1,6 +1,4 @@
 /* Navbar.css */
-
-/* Base styling for the navbar */
 .navbar {
     background-color: #fff;
     border-bottom: 1px solid #e0e0e0;
@@ -67,21 +65,20 @@
     }
   
     .hamburger {
-      display: block; /* Show hamburger icon in mobile view */
+      display: block;
       font-size: 24px;
       cursor: pointer;
       margin-left: 10px;
     }
   
     .search-container {
-      flex-grow: 1; /* Ensure it takes up the available space */
+      flex-grow: 1;
     }
   }
-  
-  /* Desktop view (larger than 768px) */
+
   @media (min-width: 769px) {
     .hamburger {
-      display: none; /* Hide hamburger icon in desktop view */
+      display: none;
     }
   }
   
